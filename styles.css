@@ -1,60 +1,62 @@
 * {
   margin: 0em;
-  min-height: 100%;
-  background-size: cover;
-  
 }
+
+body {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
 
 header {
-  background-color: darkseagreen;
-  min-height: 30%; /* 3em */
-  
-}
-
-.header {
-  color: white;
-  text-align: center;
-  font-weight: lighter;
-  font-size: 2.5em;
-  padding-top: 0.5em;
-  
-}
-
-.menu {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  
-}
-
-.menu button {
-  padding: 0.6em 1em;
-  margin-top: 1.5em;
-  margin-bottom: 1em;
-  background-color: white;
-  border-radius: 20px;
-  font-size: 1em;
-  border: none;
-  
+  background-color: darkseagreen; 
+  min-height: 20vh;
 }
 
 main {
   background-color: steelblue;
-  /* min-height: 50em;  */
-  min-height: 200%;
+  min-height: 68vh;
 }
-.main {
+
+footer {
+  background-color: skyblue; 
+  min-height: 12vh;
+  padding: auto;
+}
+
+
+.headers {
   color: white;
   text-align: center;
   font-weight: lighter;
   font-size: 2.5em;
   padding-top: 0.5em;
-  
+}
+
+.menu {
+  display: flex;
+  justify-content: space-evenly; 
+  flex-wrap: wrap;
+}
+
+.menu button {
+  padding: 0.6em 0.8em;
+  margin: 1em 0.1em 1em 0.1em;
+  background-color: white;
+  border-radius: 20px;
+  border: none;
+  font-size: 1em;
+}
+
+button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .content {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -64,21 +66,6 @@ main {
   font-weight: lighter;
   font-size: 2.5em;
   background-color: rgb(51, 51, 182);
-  padding: 1.5em 2.5em;
-  margin: 0.3em;
-  
-}
-
-footer {
-  background-color: skyblue;
-  min-height: 2em;
-}
-
-.footer {
-  color: white;
-  text-align: center;
-  font-weight: lighter;
-  font-size: 2.5em;
-  padding: 0.5em;
-  
+  padding: 1em 2.4em;
+  margin: 0.2em;
 }
